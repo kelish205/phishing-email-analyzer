@@ -1,0 +1,29 @@
+Return-Path: <bounce@mailer-x.example.net>
+Received: from mailer-x.example.net (203.0.113.45) by mx.contoso.com; Fri, 30 Oct 2026 09:12:01 -0700
+Received: from unknown (198.51.100.7) by mailer-x.example.net; Fri, 30 Oct 2026 09:11:58 -0700
+Authentication-Results: mx.contoso.com; spf=fail smtp.mailfrom=mailer-x.example.net; dkim=none; dmarc=fail header.from=micros0ft-support.com
+From: "support@microsoft.com" <alerts@micros0ft-support.com>
+Reply-To: helpdesk@freemail.example.org
+To: user@contoso.com
+Subject: Action required: your password expires today
+Message-ID: <abc123@mailer-x.example.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Unusual activity was detected. Verify your account immediately.</p>
+<a href="http://198.51.100.7/login.php">https://login.microsoftonline.com</a>
+<a href="https://bit.ly/3xYz">Open secure document</a>
+</body></html>
+
+--BOUNDARY
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="Invoice_2026.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0PjwvaHRtbD4=
+
+--BOUNDARY--

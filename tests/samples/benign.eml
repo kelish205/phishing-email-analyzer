@@ -1,0 +1,11 @@
+Return-Path: <notifications@contoso.com>
+Received: from mail.contoso.com (192.0.2.10) by mx.contoso.com; Fri, 30 Oct 2026 08:00:00 -0700
+Authentication-Results: mx.contoso.com; spf=pass smtp.mailfrom=contoso.com; dkim=pass header.d=contoso.com; dmarc=pass header.from=contoso.com
+From: "Contoso IT" <notifications@contoso.com>
+To: user@contoso.com
+Subject: Team lunch on Friday
+Message-ID: <lunch42@contoso.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi team, lunch is at noon on Friday. The menu is at https://intranet.contoso.com/lunch
